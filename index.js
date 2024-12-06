@@ -27,9 +27,9 @@ app.use(cookieParser());
 app.use(
   cors({
     origin:
-      // "https://yuksewa-id.vercel.app" ||
-      // "http://localhost:5173" ||
-      // "https://yuksewa-1jeqddf6m-ismails-projects-8d5f8d1d.vercel.app" ||
+      "https://yuksewa-id.vercel.app" ||
+      "http://localhost:5173" ||
+      "https://yuksewa-1jeqddf6m-ismails-projects-8d5f8d1d.vercel.app" ||
       "https://yuksewa.my.id/",
     credentials: true,
   })
