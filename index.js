@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173 " || "*" || "http://yuksewa.my.id/",
+    origin: "https://yuksewa-id.vercel.app",
     credentials: true,
   })
 );
